@@ -25,6 +25,7 @@ public class NoDrop extends JavaPlugin implements Listener {
 	public void onEnable() {
 		this.plugin = this;
 		this.config = new Configuration(this, "config.yml");
+		getServer().getPluginManager().registerEvents(this, this);
 	}
 	
 	@EventHandler
