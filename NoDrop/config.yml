@@ -1,0 +1,19 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                 NoDrop Configuration                 | #    Author: Insxnity
+# +------------------------------------------------------+ #
+############################################################
+
+# Should we enable the plugin?
+enable: true
+
+# Should Operators be able to drop items?
+op-override: true
+
+# What permission should allow players to drop items?
+permission: 'Nodrop.drop'
+
+# Modifying will break the configuration
+version: 1.0
+
+##End of Configuration

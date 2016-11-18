@@ -1,0 +1,10 @@
+name: NoDrop
+main: net.insxnity.nodrop.NoDrop
+load: STARTUP
+version: 1.0.0
+author: Insxnity
+commands:
+  nd:
+    description: NoDrop Core Command
+    usage: /<command> reload
+    alias: nodrop
